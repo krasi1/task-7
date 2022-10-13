@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>HTML, CSS and SASS Boilerplate</title>
-    <meta
-      name="description"
-      content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src=""
-  </head>
-  <body>
-    <div id="DCH"></div>
-    <script> 
-        
 
-    </script>     
-   
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML, CSS and SASS Boilerplate</title>
+  <meta name="description" content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <div id="dynamicContentHolder"></div>
+  <script>
+  for (let i = 0; i < 5; i++) 
+  {
+      document.getElementById("dynamicContentHolder").innerHTML += "<article class=\"message\">bruh</article>";
+  }
+  </script>
+  
+
+
+</body>
+
 </html>
