@@ -14,33 +14,38 @@
    
    const body = document.body;
 
-   const article = document.createElement('article');
+   
+   
+
+   document.addEventListener('click', function(){
+    const article = document.createElement('article');
    article.classList.add("message");
    body.append(article);
+   article.innerHTML += "1";
 
    const article1 = document.createElement('article');
    article.classList.add("message");
    body.append(article1);
+   article1.innerHTML += "2";
 
    const article2 = document.createElement('article');
    article.classList.add("message");
    body.append(article2);
+   article2.innerHTML += "3";
 
    const article3 = document.createElement('article');
    article.classList.add("message");
    body.append(article3);
+   article3.innerHTML += "4";
 
    const article4 = document.createElement('article');
    article.classList.add("message");
    body.append(article4);
-   
+   article4.innerHTML += "5";
 
-   document.addEventListener('click', function(){
-    article.innerHTML += "1";
-    article1.innerHTML += "2";
-    article2.innerHTML += "3";
-    article3.innerHTML += "4";
-    article4.innerHTML += "5";
+    
+     
+    
    });
   
   </script>
