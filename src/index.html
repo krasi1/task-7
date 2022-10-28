@@ -9,14 +9,43 @@
 </head>
 
 <body>
-  <div id="dynamicContentHolder"></div>
+  
   <script>
-  for (let i = 0; i < 5; i++) 
-  {
-      document.getElementById("dynamicContentHolder").innerHTML += "<article class=\"message\">bruh</article>";
-  }
+   
+   const body = document.body;
+
+   const article = document.createElement('article');
+   article.classList.add("message");
+   body.append(article);
+
+   const article1 = document.createElement('article');
+   article.classList.add("message");
+   body.append(article1);
+
+   const article2 = document.createElement('article');
+   article.classList.add("message");
+   body.append(article2);
+
+   const article3 = document.createElement('article');
+   article.classList.add("message");
+   body.append(article3);
+
+   const article4 = document.createElement('article');
+   article.classList.add("message");
+   body.append(article4);
+   
+
+   document.addEventListener('click', function(){
+    article.innerHTML += "1";
+    article1.innerHTML += "2";
+    article2.innerHTML += "3";
+    article3.innerHTML += "4";
+    article4.innerHTML += "5";
+   });
+  
   </script>
   
+
 
 
 </body>
