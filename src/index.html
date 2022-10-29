@@ -1,59 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML, CSS and SASS Boilerplate</title>
+    <meta
+      name="description"
+      content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>HTML, CSS and SASS Boilerplate</title>
-  <meta name="description" content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+  <body>
+    <script>
 
-<body>
-  
-  <script>
-  
 
-   const article = document.createElement('article');
-   document.body.appendChild(article);
-   const article1 = document.createElement('article');
-   document.body.appendChild(article1);
-   const article2 = document.createElement('article');
-   document.body.appendChild(article2);
-   const article3 = document.createElement('article');
-   document.body.appendChild(article3);
-   const article4 = document.createElement('article');
-   document.body.appendChild(article4);
+      const article = document.createElement('article');
+      document.body.appendChild(article);
+      const article1 = document.createElement('article');
+      document.body.appendChild(article1);
+      const article2 = document.createElement('article');
+      document.body.appendChild(article2);
+      const article3 = document.createElement('article');
+      document.body.appendChild(article3);
+      const article4 = document.createElement('article');
+      document.body.appendChild(article4);
 
-   document.addEventListener('click', function(){
-   
-   article.classList.add("message");
-   article.innerHTML += "1";
+      document.addEventListener('click', function(){
 
-   
-   article1.classList.add("message");
-   article1.innerHTML += "2";
+      article.classList.add("message");
+      article.innerText += "1";
 
-   
-   article2.classList.add("message");
-   article2.innerHTML += "3";
 
-   
-   article3.classList.add("message");
-   article3.innerHTML += "4";
+      article1.classList.add("message");
+      article1.innerText += "2";
 
-   article4.classList.add("message");
-   article4.innerHTML += "5";
 
-    
-     
-    
-   });
-  
-  </script>
-  
+      article2.classList.add("message");
+      article2.innerText += "3";
+
+
+      article3.classList.add("message");
+      article3.innerText += "4";
+
+      article4.classList.add("message");
+      article4.innerText += "5";
 
 
 
-</body>
 
+      });
+    </script>
+  </body>
 </html>
