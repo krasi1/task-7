@@ -14,36 +14,58 @@
     <script>
 
 
-      const article = document.createElement('article');
-      document.body.appendChild(article);
-      const article1 = document.createElement('article');
-      document.body.appendChild(article1);
-      const article2 = document.createElement('article');
-      document.body.appendChild(article2);
-      const article3 = document.createElement('article');
-      document.body.appendChild(article3);
-      const article4 = document.createElement('article');
-      document.body.appendChild(article4);
+      // const article = document.createElement('article');
+      // document.body.appendChild(article);
+      // const article1 = document.createElement('article');
+      // document.body.appendChild(article1);
+      // const article2 = document.createElement('article');
+      // document.body.appendChild(article2);
+      // const article3 = document.createElement('article');
+      // document.body.appendChild(article3);
+      // const article4 = document.createElement('article');
+      // document.body.appendChild(article4);
 
       document.addEventListener('click', function(){
 
-      article.classList.add("message");
-      article.innerText += "1";
+        const article = document.createElement('article');
+        article.innerHTML = '<article class="message"> 1 </article>';
+        document.body.appendChild(article);
+
+        const article1 = document.createElement('article');
+        article1.innerHTML = '<article class="message"> 2 </article>';
+        document.body.appendChild(article1);
+
+        const article2 = document.createElement('article');
+        article2.innerHTML = '<article class="message"> 3 </article>';
+        document.body.appendChild(article2);
+
+        const article3 = document.createElement('article');
+        article3.innerHTML = '<article class="message"> 4 </article>';
+        document.body.appendChild(article3);
+
+        const article4 = document.createElement('article');
+        article4.innerHTML = '<article class="message"> 5 </article>';
+        document.body.appendChild(article4);
+        
+        
+
+      // article.classList.add("message");
+      // article.innerText += "1";
 
 
-      article1.classList.add("message");
-      article1.innerText += "2";
+      // article1.classList.add("message");
+      // article1.innerText += "2";
 
 
-      article2.classList.add("message");
-      article2.innerText += "3";
+      // article2.classList.add("message");
+      // article2.innerText += "3";
 
 
-      article3.classList.add("message");
-      article3.innerText += "4";
+      // article3.classList.add("message");
+      // article3.innerText += "4";
 
-      article4.classList.add("message");
-      article4.innerText += "5";
+      // article4.classList.add("message");
+      // article4.innerText += "5";
 
 
 
